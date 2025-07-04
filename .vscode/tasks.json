@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Скомпилировать C++ (cout.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "cout.cpp",
+        "-o",
+        "cout"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Компиляция cout.cpp с помощью g++ для WSL"
+    }
+  ]
+}
